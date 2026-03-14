@@ -62,7 +62,7 @@ ecc-crypto-system/
 
 ```bash
 git clone https://github.com/Kavindi52/ecc-crypto-system.git
-# Adjust the name if you chose a different repository name
+
 cd ecc-crypto-system
 ```
 ### 2. Start the backend (Flask server)
