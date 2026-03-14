@@ -71,25 +71,25 @@ cd ecc-crypto-system
  cd backend
 ```
 
-# (Recommended) Create & activate virtual environment
+### (Recommended) Create & activate virtual environment
 ```bash
 python -m venv venv
 ```
 
-# Windows
+### Windows
 ```bash
 venv\Scripts\activate
 ```
 
-# macOS / Linux
+### macOS / Linux
 ```bash
  source venv/bin/activate
 ```
-# Install dependencies
+### Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-# Start server
+### Start server
 ```bash
 python app.py
 ```
@@ -118,18 +118,18 @@ Install Live Server extension → right-click index.html → Open with Live Serv
 
 ### 4. Quick start in the browser
 
-# Use default values (a=1, b=6, p=17)
+## Use default values (a=1, b=6, p=17)
 Click List All Points & Draw Curve → see graph
 Switch to ECDH Key Exchange tab
 Change Alice / Bob private keys
 Click Compute Shared Secret → observe that both sides reach the same point
 
-# Default toy curve
+## Default toy curve
 Equation: y² = x³ + x + 6 (mod 17)
 Common base point used in the ECDH demo: G = (3, 6)
 Possible next steps / improvements
 
-# Add point-on-curve validation
+## Add point-on-curve validation
 Visualize the secant/tangent line during point addition
 Store calculation history (SQLite)
 Support standard NIST / SECG curves (secp256r1, secp256k1, …)
