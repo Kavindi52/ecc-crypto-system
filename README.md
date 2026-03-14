@@ -142,10 +142,10 @@ MIT License
 Free to use, modify and share for educational and personal purposes.
 
 ### Built with
-
+```bash
 Python + Flask
 HTML + Bootstrap 5
 JavaScript + Chart.js 4
 Pure mathematics (no OpenSSL, cryptography.io, etc.)
-
+```
 Happy exploring elliptic curves!
