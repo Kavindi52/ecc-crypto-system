@@ -82,8 +82,9 @@ venv\Scripts\activate
 ```
 
 # macOS / Linux
-# source venv/bin/activate
-
+```bash
+ source venv/bin/activate
+```
 # Install dependencies
 ```bash
 pip install -r requirements.txt
