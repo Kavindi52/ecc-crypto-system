@@ -137,8 +137,8 @@ Add basic ElGamal encryption example
 Theme switch (light/dark mode)
 Better mobile experience & touch support
 
-License
-MIT License
+### License
+##### MIT License
 Free to use, modify and share for educational and personal purposes.
 
 ### Built with
